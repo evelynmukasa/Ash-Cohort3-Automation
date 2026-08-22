@@ -23,3 +23,8 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+Cypress.Commands.add("loginAsStudent", () => {
+  cy.visit("/");
+
+  // Nous allons ajouter ici les étapes réelles du login
+});
